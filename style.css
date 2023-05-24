@@ -4,6 +4,24 @@ body {
   margin: 0;
 }
 
-h1 {
-  color: red;
+h1, nav, #featured-property  {
+  text-align: center;
+}
+
+nav a{
+  padding: 0 10px;
+  background-color: #808080;
+  color: #000;
+}
+#featured-property p{
+  width: 50%;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+#details div{
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: #ff0000;
 }
